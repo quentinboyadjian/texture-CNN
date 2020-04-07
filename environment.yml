@@ -222,9 +222,9 @@ dependencies:
     - tornado==5.0
     - tqdm==4.36.1
     - typed-ast==1.4.0
-    - pyzmq==18.1.0=py37ha925a31_0
-    - icc_rt==2019.0.0=h0cc432a_1
-    - qt==5.9.7=vc14h73c81de_0
+    - pyzmq==18.1.0
+    - icc_rt==2019.0.0
+    - qt==5.9.7
     - winpty==0.4.3=4
     - sqlite==3.30.0=he774522_0
     - bcrypt==3.1.7=py37he774522_0
