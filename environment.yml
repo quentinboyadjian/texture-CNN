@@ -71,7 +71,6 @@ dependencies:
   - m2w64-gcc-libgfortran=5.3.0
   - m2w64-gcc-libs=5.3.0
   - m2w64-gcc-libs-core=5.3.0
-  - m2w64-gmp=6.1.0
   - m2w64-libwinpthread-git=5.0.0.4634.697f757
   - markdown=3.1.1
   - markupsafe=1.1.1
@@ -128,7 +127,6 @@ dependencies:
   - python_abi=3.7
   - pytz=2019.3
   - pywin32=223
-  - pywin32-ctypes=0.2.0
   - pywinpty=0.5.5
   - pyzmq=18.1.0
   - qdarkstyle=2.7
@@ -167,7 +165,6 @@ dependencies:
   - ujson=1.35
   - urllib3=1.24.2
   - vc=14.1
-  - vs2015_runtime=14.16.27012
   - watchdog=0.9.0
   - wcwidth=0.1.7
   - webencodings=0.5.1
