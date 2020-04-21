@@ -4,49 +4,110 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - _tflow_select=2.3.0
+  - absl-py=0.8.0
   - alabaster=0.7.12
+  - argh=0.26.2
+  - asn1crypto=1.2.0
   - astor=0.8.0
   - atomicwrites=1.3.0
   - attrs=19.2.0
   - autopep8=1.4.4
   - babel=2.7.0
   - backcall=0.1.0
+  - bcrypt=3.1.7
   - blas=1.0
   - bleach=3.1.0
+  - ca-certificates=2020.4.5.1
+  - certifi=2020.4.5.1
+  - cffi=1.13.2
   - chardet=3.0.4
   - cloudpickle=1.2.2
   - colorama=0.4.1
+  - cryptography=2.8
   - cycler=0.10.0
   - decorator=4.4.0
   - defusedxml=0.6.0
   - diff-match-patch=20181111
+  - docutils=0.15.2
+  - entrypoints=0.3
+  - flake8=3.7.9
+  - freetype=2.9.1
+  - future=0.18.2
   - grpcio=1.16.1
+  - h5py=2.9.0
+  - hdf5=1.10.4
+  - icc_rt=2019.0.0
   - icu=58.2
   - idna=2.8
   - imagesize=1.1.0
+  - importlib_metadata=1.3.0
+  - intel-openmp=2019.4
   - intervaltree=3.0.2
+  - ipykernel=5.1.3
+  - ipython=7.8.0
   - ipython_genutils=0.2.0
+  - ipywidgets=7.5.1
+  - isort=4.3.21
+  - jedi=0.14.1
   - jinja2=2.10.3
   - joblib=0.14.0
   - jpeg=9b
+  - jsonschema=3.0.2
+  - jupyter_client=5.3.4
+  - jupyter_core=4.6.0
   - keras-applications=1.0.8
   - keras-preprocessing=1.1.0
+  - keyring=19.2.0
+  - kiwisolver=1.1.0
+  - libblas=3.8.0
+  - libcblas=3.8.0
+  - libmklml=2019.0.5
+  - libpng=1.6.37
+  - libprotobuf=3.9.2
   - libsodium=1.0.16
+  - libspatialindex=1.9.3
+  - libtiff=4.1.0
+  - m2w64-gcc-libgfortran=5.3.0
+  - m2w64-gcc-libs=5.3.0
+  - m2w64-gcc-libs-core=5.3.0
+  - m2w64-gmp=6.1.0
+  - m2w64-libwinpthread-git=5.0.0.4634.697f757
   - markdown=3.1.1
+  - markupsafe=1.1.1
+  - matplotlib=3.1.1
+  - matplotlib-base=3.1.1
   - mistune=0.8.4
+  - mkl=2019.4
+  - mkl-service=2.3.0
+  - mkl_fft=1.0.14
+  - mkl_random=1.1.0
   - more-itertools=8.0.2
+  - msys2-conda-epoch=20160418
   - nbconvert=5.6.0
   - nbformat=4.4.0
+  - notebook=6.0.0
+  - numpy=1.16.5
+  - numpy-base=1.16.5
   - numpydoc=0.9.1
   - olefile=0.46
+  - openssl=1.1.1f
   - packaging=19.2
+  - pandas=0.25.2
+  - pandoc=2.2.3.2
   - pandocfilters=1.4.2
+  - paramiko=2.6.0
   - parso=0.5.2
   - pathtools=0.1.2
+  - pexpect=4.7.0
   - pickleshare=0.7.5
+  - pip=19.2.3
   - pipfile=0.0.2
+  - pluggy=0.13.1
   - prometheus_client=0.7.1
   - prompt_toolkit=2.0.10
+  - protobuf=3.9.2
+  - psutil=5.6.5
   - pycodestyle=2.5.0
   - pycparser=2.19
   - pydocstyle=4.0.1
@@ -54,19 +115,34 @@ dependencies:
   - pygments=2.4.2
   - pympler=0.7
   - pynacl=1.3.0
+  - pyopenssl=19.1.0
   - pyparsing=2.4.2
   - pyqt=5.9.2
+  - pyreadline=2.1
+  - pyrsistent=0.15.4
+  - pysocks=1.7.1
+  - python=3.7.4
   - python-dateutil=2.8.0
   - python-jsonrpc-server=0.3.2
+  - python-language-server=0.31.2
+  - python_abi=3.7
   - pytz=2019.3
+  - pywin32=223
+  - pywin32-ctypes=0.2.0
+  - pywinpty=0.5.5
+  - pyzmq=18.1.0
   - qdarkstyle=2.7
   - qt=5.9.7
   - qtawesome=0.6.0
   - qtconsole=4.6.0
   - qtpy=1.9.0
+  - requests=2.22.0
   - rope=0.14.0
   - rtree=0.8.3
+  - scikit-learn=0.21.3
+  - scipy=1.3.1
   - send2trash=1.5.0
+  - setuptools=41.4.0
   - sip=4.19.8
   - six=1.12.0
   - snowballstemmer=2.0.0
@@ -78,17 +154,34 @@ dependencies:
   - sphinxcontrib-jsmath=1.0.1
   - sphinxcontrib-qthelp=1.0.2
   - sphinxcontrib-serializinghtml=1.1.3
+  - spyder=4.0.0
+  - spyder-kernels=1.8.1
+  - sqlite=3.30.0
+  - tensorflow-base=1.14.0
   - termcolor=1.1.0
+  - terminado=0.8.2
   - testpath=0.4.2
   - tk=8.6.8
   - toml=0.10.0
+  - traitlets=4.3.3
   - ujson=1.35
+  - urllib3=1.24.2
+  - vc=14.1
+  - vs2015_runtime=14.16.27012
+  - watchdog=0.9.0
   - wcwidth=0.1.7
   - webencodings=0.5.1
   - werkzeug=0.16.0
+  - wheel=0.33.6
+  - widgetsnbextension=3.5.1
+  - win_inet_pton=1.1.0
+  - wincertstore=0.2
+  - winpty=0.4.3
+  - wrapt=1.11.2
   - xz=5.2.4
   - yaml=0.1.7
   - yapf=0.28.0
+  - zeromq=4.3.1
   - zipp=0.6.0
   - zlib=1.2.11
   - zstd=1.3.7
@@ -133,99 +226,5 @@ dependencies:
     - tornado==5.0
     - tqdm==4.36.1
     - typed-ast==1.4.0
-    - keyring==19.2.0
-    - pywin32==223
-    - protobuf==3.9.2
-    - pluggy==0.13.1
-    - scikit-learn==0.21.3
-    - spyder-kernels==1.8.1
-    - numpy-base==1.16.5
-    - msys2-conda-epoch==20160418
-    - scipy==1.3.1
-    - ipykernel==5.1.3
-    - pyreadline==2.1
-    - win_inet_pton==1.1.0
-    - setuptools==41.4.0
-    - urllib3==1.24.2
-    - libpng==1.6.37
-    - watchdog==0.9.0
-    - argh[version=='>==0.24.1']
-    - ipython==7.8.0
-    - pandas==0.25.2
-    - pyzmq==18.1.0
-    - jupyter_core==4.6.0
-    - isort==4.3.21
-    - absl-py==0.8.0
-    - argh==0.26.2
-    - libspatialindex==1.9.3
-    - libmklml==2019.0.5
-    - pywinpty==0.5.5
-    - wheel==0.33.6
-    - mkl-service==2.3.0
-    - flake8==3.7.9
-    - m2w64-gmp==6.1.0
-    - psutil==5.6.5
-    - certifi==2020.4.5.1
-    - traitlets==4.3.3
-    - pexpect==4.7.0
-    - spyder==4.0.0
-    - m2w64-libwinpthread-git==5.0.0.4634.697f757
-    - libcblas==3.8.0
-    - pysocks==1.7.1
-    - asn1crypto==1.2.0
-    - entrypoints==0.3
-    - winpty==0.4.3
-    - libblas==3.8.0
-    - jupyter_client==5.3.4
-    - python-language-server==0.31.2
-    - terminado==0.8.2
-    - m2w64-gcc-libgfortran==5.3.0
-    - libtiff==4.1.0
-    - _tflow_select==2.3.0
-    - importlib_metadata==1.3.0
-    - m2w64-gcc-libs-core==5.3.0
-    - python_abi==3.7
-    - matplotlib==3.1.1
-    - mkl==2019.4
-    - pyopenssl==19.1.0
-    - cryptography[version=='>==2.8']
-    - pyrsistent==0.15.4
-    - markupsafe==1.1.1
-    - pip==19.2.3
-    - mkl_fft==1.0.14
-    - future==0.18.2
-    - widgetsnbextension==3.5.1
-    - wrapt==1.11.2
-    - libprotobuf==3.9.2
-    - h5py==2.9.0
-    - icc_rt==2019.0.0
-    - pywin32-ctypes==0.2.0
-    - bcrypt==3.1.7
-    - ipywidgets==7.5.1
-    - widgetsnbextension[version=='>==3.5.0,<3.6.0']
-    - cryptography==2.8
-    - jedi==0.14.1
-    - vc==14.1
-    - docutils==0.15.2
-    - intel-openmp==2019.4
-    - python==3.7.4
-    - vs2015_runtime==14.16.27012
-    - wincertstore==0.2
-    - openssl==1.1.1f
-    - sqlite==3.30.0
-    - paramiko==2.6.0
-    - notebook==6.0.0
-    - jsonschema==3.0.2
-    - cffi==1.13.2
-    - pypy3.6==7.3.0
-    - python==3.6.9==0_73_pypy
-    - numpy==1.16.5
-    - mkl_random==1.1.0
-    - pandoc==2.2.3.2
-    - m2w64-gcc-libs==5.3.0
-    - zeromq==4.3.1
-    - kiwisolver==1.1.0
-    - matplotlib-base==3.1.1
-    - tensorflow-base==1.14.0
-    - ca-certificates==2020.4.5.1
-    - requests==2.22.0
+prefix: C:\Users\AQ62270\AppData\Local\Continuum\anaconda3\envs\tensorflow_env
+
