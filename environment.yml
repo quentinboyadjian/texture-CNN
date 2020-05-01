@@ -232,6 +232,3 @@ dependencies:
     - setuptools==41.4.0
     - scikit-learn==0.21.3
     - widgetsnbextension==3.5.1
-
-prefix: C:\Users\AQ62270\AppData\Local\Continuum\anaconda3\envs\tensorflow_env
-
